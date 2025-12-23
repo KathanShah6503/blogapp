@@ -7,7 +7,9 @@ import lombok.*;
 @Entity(name = "Users")
 @Getter
 @Setter
+@Builder
 @ToString
+@AllArgsConstructor
 @RequiredArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class UserEntity {
